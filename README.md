@@ -1,2 +1,2 @@
-# Python & AI
+Python & AI
  CW + HW
