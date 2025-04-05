@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "month": "\u0411\u0435\u0440\u0435\u0437\u0435\u043d\u044c 2025",
+        "hours": 168.0,
+        "consultation_cost": 1470.0,
+        "coefficient": 0.25,
+        "salary": 123480.0,
+        "usd_rate": 41.25,
+        "eur_rate": 44.49,
+        "date_added": "2025-03-26 23:55:25",
+        "history": [
+            {
+                "timestamp": "2025-03-26 23:56:49",
+                "changes": {
+                    "month": "\u0411\u0435\u0440\u0435\u0437\u0435\u043d\u044c 2025",
+                    "hours": null,
+                    "consultation_cost": null,
+                    "coefficient": null,
+                    "usd_rate": null,
+                    "eur_rate": null
+                }
+            },
+            {
+                "timestamp": "2025-03-27 00:02:08",
+                "changes": {
+                    "month": null,
+                    "hours": null,
+                    "consultation_cost": null,
+                    "coefficient": 0.25,
+                    "usd_rate": null,
+                    "eur_rate": null
+                }
+            }
+        ]
+    }
+]
