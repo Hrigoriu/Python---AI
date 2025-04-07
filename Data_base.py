@@ -277,3 +277,54 @@ my_list[0], my_list[4] = my_list[4], my_list[0]
 my_list[1], my_list[3] = my_list[3], my_list[1]
 print(my_list)
 [5, 3, 8, 1, 10]
+
+    #list() Списки
+*Сортування:
+-sort()
+my_list = [8, 10, 6, 2, 4]
+my_list.sort()
+print(my_list)   #[2, 4, 6, 8, 10]
+-reverse()
+lst = [5, 3, 1, 2, 4]
+print(lst)
+lst.reverse()
+print(lst)  #  [4, 2, 1, 3, 5]
+
+*Зріз
+my_list[start:end]  від start до end - 1
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[1:3]
+print(new_list) # [8, 6]
+=========================
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[1:-1]
+print(new_list) # [8, 6, 4]
+
+#my_list[start:] == my_list[start:len(my_list)]
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[3:]
+print(new_list  # [4, 2]
+# del
+my_list = [10, 8, 6, 4, 2]
+del my_list[1:3]
+print(my_list) #[10, 4, 2]
+
+
+    ##Функції
+def function_name():
+    function_body
+------------------------------------
+def message():
+    print("Введіть значення: ")
+message()
+a = int(input())
+message()
+b = int(input())
+message()
+c = int(input())
+-------------------------------------
+def hello(name):  # визначення функції
+    print("Привіт,", name)  # тіло функції
+name = input("Введіть своє ім'я: ")
+hello(name)  # виклик функції
+

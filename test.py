@@ -1,2 +1,7 @@
-n = [1, 2.0, 'dog']
-print(len(n))
+def hello(name):  # визначення функції
+    print("Привіт,", name)  # тіло функції
+name = input("Введіть своє ім'я: ")
+hello(name)  # виклик функції
+
+
+
